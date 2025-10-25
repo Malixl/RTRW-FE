@@ -6,7 +6,6 @@ import {
   SearchOutlined,
   ArrowLeftOutlined,
 } from "@ant-design/icons";
-import { useNavigate } from "react-router-dom";
 import Navbar from "../components/organisms/Navbar";
 import Footer from "../components/organisms/Footer";
 
@@ -15,8 +14,6 @@ const { Title, Paragraph, Text } = Typography;
 const { Search } = Input;
 
 const BeritaPage = () => {
-  const navigate = useNavigate();
-
   // Sample news data - replace with API call
   const newsData = [
     {

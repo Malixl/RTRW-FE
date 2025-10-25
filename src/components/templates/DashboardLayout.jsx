@@ -3,10 +3,11 @@ import { useState } from "react";
 import { Layout, Menu } from "antd";
 import {
   DashboardOutlined,
-  FileTextOutlined,
   EnvironmentOutlined,
-  SettingOutlined,
-  UserOutlined,
+  AppstoreOutlined,
+  FileTextOutlined,
+  TagsOutlined,
+  BookOutlined,
   LogoutOutlined,
   MenuFoldOutlined,
   MenuUnfoldOutlined,
@@ -28,24 +29,29 @@ const DashboardLayout = ({ children }) => {
       label: "Dashboard",
     },
     {
-      key: "/dashboard/documents",
+      key: "/dashboard/wilayah",
+      icon: <EnvironmentOutlined />,
+      label: "Wilayah",
+    },
+    {
+      key: "/dashboard/polaruang",
+      icon: <AppstoreOutlined />,
+      label: "Pola Ruang",
+    },
+    {
+      key: "/dashboard/rtrw",
       icon: <FileTextOutlined />,
       label: "Dokumen RTRW",
     },
     {
-      key: "/dashboard/maps",
-      icon: <EnvironmentOutlined />,
-      label: "Peta Interaktif",
+      key: "/dashboard/klasifikasi",
+      icon: <TagsOutlined />,
+      label: "Klasifikasi",
     },
     {
-      key: "/dashboard/profile",
-      icon: <UserOutlined />,
-      label: "Profil",
-    },
-    {
-      key: "/dashboard/settings",
-      icon: <SettingOutlined />,
-      label: "Pengaturan",
+      key: "/dashboard/berita",
+      icon: <BookOutlined />,
+      label: "Berita",
     },
   ];
 

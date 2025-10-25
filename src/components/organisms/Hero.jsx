@@ -38,7 +38,7 @@ const Hero = ({ title, subtitle, description }) => {
               <div className="flex items-center gap-2 text-white">
                 <EnvironmentOutlined className="text-lg sm:text-2xl" />
                 <span className="font-semibold text-xs sm:text-sm tracking-wide uppercase">
-                  Perencanaan Tata Ruang
+                  Website RTRW
                 </span>
               </div>
             </div>
@@ -51,7 +51,7 @@ const Hero = ({ title, subtitle, description }) => {
 
           {/* Subtitle */}
           <h2
-            className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold mb-6 sm:mb-8 text-primary-500 animate-slide-up px-4"
+            className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold mb-6 sm:mb-8 text-primary-300 animate-slide-up px-4"
             style={{ animationDelay: "0.1s" }}
           >
             {subtitle}
@@ -70,11 +70,14 @@ const Hero = ({ title, subtitle, description }) => {
             className="animate-slide-up px-4"
             style={{ animationDelay: "0.3s" }}
           >
-            <button 
+            <button
               onClick={() => {
-                const nextSection = document.getElementById('tentang');
+                const nextSection = document.getElementById("tentang");
                 if (nextSection) {
-                  nextSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                  nextSection.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start",
+                  });
                 }
               }}
               className="group bg-white text-primary-700 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg shadow-elegant hover:shadow-elegant-hover transform hover:scale-105 transition-all duration-300 inline-flex items-center gap-2"

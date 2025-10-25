@@ -32,7 +32,7 @@ const Navbar = () => {
               <EnvironmentOutlined className="text-xl" />
             </span>
             <span className="font-display font-bold text-lg md:text-xl bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent">
-              RTRW Gorontalo
+              RTRW Provinsi Gorontalo
             </span>
           </Link>
 

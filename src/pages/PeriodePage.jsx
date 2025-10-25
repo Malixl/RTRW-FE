@@ -118,8 +118,7 @@ const PeriodePage = () => {
               Periode RTRW Gorontalo
             </Title>
             <Paragraph className="text-blue-50 text-lg md:text-xl max-w-2xl mx-auto">
-              Rencana Tata Ruang Wilayah Provinsi Gorontalo periode 2024-2043
-              berdasarkan Perda No. 2 Tahun 2024
+              Dokumen perencanaan tata ruang wilayah Provinsi Gorontalo untuk berbagai periode perencanaan pembangunan daerah
             </Paragraph>
           </div>
         </div>
@@ -145,10 +144,7 @@ const PeriodePage = () => {
                 Informasi Penting
               </h3>
               <p className="text-gray-600 text-sm md:text-base">
-                Dokumen RTRW Provinsi Gorontalo periode 2024-2043 mengacu pada
-                Peraturan Daerah No. 2 Tahun 2024 yang disahkan oleh pemerintah
-                daerah. Dokumen ini memuat rencana penataan ruang wilayah untuk
-                20 tahun ke depan.
+                Halaman ini menyediakan akses ke dokumen-dokumen RTRW Provinsi Gorontalo dari berbagai periode perencanaan. Setiap dokumen mengacu pada Peraturan Daerah yang berlaku dan memuat rencana penataan ruang wilayah untuk jangka waktu tertentu.
               </p>
             </div>
 
@@ -159,7 +155,7 @@ const PeriodePage = () => {
                   Dokumen RTRW Tersedia
                 </Title>
                 <Paragraph className="!mb-0 text-gray-600">
-                  Unduh dokumen lengkap atau lihat visualisasi peta interaktif
+                  Daftar dokumen perencanaan tata ruang dari berbagai periode - unduh dokumen lengkap atau lihat visualisasi peta interaktif
                 </Paragraph>
               </div>
 
@@ -200,11 +196,10 @@ const PeriodePage = () => {
               <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                 <div className="text-3xl mb-3">⏱️</div>
                 <h4 className="font-semibold text-gray-800 mb-2">
-                  Periode 20 Tahun
+                  Multi Periode
                 </h4>
                 <p className="text-sm text-gray-600">
-                  Perencanaan jangka panjang untuk pembangunan berkelanjutan
-                  hingga 2043
+                  Akses dokumen dari berbagai periode perencanaan untuk referensi dan perbandingan
                 </p>
               </div>
             </div>
